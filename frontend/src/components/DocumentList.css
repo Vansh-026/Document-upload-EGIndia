@@ -1,0 +1,74 @@
+.document-list {
+  background-color: #FFFFFF;  /* White card */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+h2 {
+  color: #FF9933;  /* Saffron heading */
+  text-align: center;
+}
+
+.section { 
+  margin-bottom: 15px; 
+}
+
+.subsection { 
+  margin-left: 20px; 
+}
+
+.toggle-btn {
+  background-color: #138808;  /* Green */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.toggle-btn:hover { 
+  background-color: #FF9933;  /* Saffron hover */
+}
+
+.subject-list {
+  list-style: none;
+  padding: 0;
+}
+
+.subject-list li {
+  padding: 8px;
+  border-bottom: 1px solid #000080; /* Navy */
+  color: #000080;
+  font-size: 15px;
+}
+
+/* Links for View and Download */
+.subject-list a,
+.download-link {
+  color: #138808;  /* Green links */
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subject-list a:hover,
+.download-link:hover {
+  color: #FF9933;  /* Saffron hover */
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn { font-size: 14px; }
+  .subsection { margin-left: 10px; }
+  .subject-list li { font-size: 13px; }
+}

@@ -1,0 +1,44 @@
+.upload-panel {
+  background-color: #FFFFFF;  /* White card */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  /* Subtle shadow like PCE cards */
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #FF9933;  /* Saffron border accent */
+}
+h2 {
+  color: #000080;  /* Navy blue */
+  text-align: center;
+}
+input, button {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #138808;  /* Green border */
+}
+button {
+  background-color: #138808;  /* Green */
+  color: #FFFFFF;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #FF9933;  /* Saffron on hover */
+}
+@media (max-width: 600px) {
+  .upload-panel { padding: 20px; }
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #138808;
+  background-color: #FFFFFF;
+}

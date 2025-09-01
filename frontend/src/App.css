@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #FF9933 0%, #FFFFFF 50%, #138808 100%);  /* Saffron to white to green */
+  min-height: 100vh;
+}
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);  /* Tiranga stripe */
+  padding: 20px;
+  color: #000080;  /* Navy blue text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  margin: 0;
+  color: #000080;
+}
+nav a {
+  color: #000080;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer {
+  background-color: #138808;  /* Green */
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .header { flex-direction: column; }
+  nav { margin-top: 10px; }
+  main { padding: 10px; }
+}
